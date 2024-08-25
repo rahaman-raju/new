@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Telegram_Report]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testCase.TGCase$TgNewUser">
+        <methods>
+          <include name="setDriver"/>
+          <include name="Tg_NewUser"/>
+          <include name="Tg_NewUserDataExport"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+          <include name="afterMethod1"/>
+        </methods>
+      </class> <!-- testCase.TGCase$TgNewUser -->
+      <class name="testCase.TGCase$TelegramTask">
+        <methods>
+          <include name="setDriver"/>
+          <include name="TG_TaskSchedule"/>
+          <include name="afterMethod"/>
+          <include name="Tg_TaskBot"/>
+          <include name="tearDown"/>
+          <include name="Tg_GeoCluster"/>
+          <include name="afterMethod1"/>
+        </methods>
+      </class> <!-- testCase.TGCase$TelegramTask -->
+      <class name="testCase.TGCase$TelegramChannels">
+        <methods>
+          <include name="setDriver"/>
+          <include name="afterMethod"/>
+          <include name="TgChannelDetails"/>
+          <include name="tearDown"/>
+          <include name="afterMethod1"/>
+          <include name="TgChannelSearch"/>
+        </methods>
+      </class> <!-- testCase.TGCase$TelegramChannels -->
+      <class name="testCase.TGCase$TelegramUsers">
+        <methods>
+          <include name="setDriver"/>
+          <include name="TgMessageSearch"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+          <include name="afterMethod1"/>
+          <include name="TgUserGeoandTooltip"/>
+        </methods>
+      </class> <!-- testCase.TGCase$TelegramUsers -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Telegram_Report] -->

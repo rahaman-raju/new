@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Snapchat Report]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testCase.Snapchat$SnapchatStatistics$SnapchatUser">
+        <methods>
+          <include name="setDriver"/>
+          <include name="SnapchatUsersSrc"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+          <include name="afterMethod1"/>
+        </methods>
+      </class> <!-- testCase.Snapchat$SnapchatStatistics$SnapchatUser -->
+      <class name="testCase.Snapchat$SnapchatStatistics">
+        <methods>
+          <include name="setDriver"/>
+          <include name="SnapCheckTabs"/>
+          <include name="SnapSearch"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+          <include name="afterMethod1"/>
+        </methods>
+      </class> <!-- testCase.Snapchat$SnapchatStatistics -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Snapchat Report] -->

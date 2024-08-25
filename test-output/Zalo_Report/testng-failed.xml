@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Zalo_Report]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testCase.Zalo$ZaloAllPart">
+        <methods>
+          <include name="setDriver"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+          <include name="ZaloUserDetails"/>
+          <include name="ZaloUser"/>
+          <include name="afterMethod1"/>
+          <include name="ZaloStats"/>
+        </methods>
+      </class> <!-- testCase.Zalo$ZaloAllPart -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Zalo_Report] -->
